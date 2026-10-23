@@ -271,7 +271,7 @@ if (process.env.VERCEL !== "1") {
   createFullApp()
     .then(serverApp => {
       serverApp.listen(port, "0.0.0.0", () => {
-        console.log(`MedMap application running on http://0.0.0.0:${port}`);
+        console.log(`MedMap running on http://0.0.0.0:${port}`);
       });
     })
     .catch(err => {
